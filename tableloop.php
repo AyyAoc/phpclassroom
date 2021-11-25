@@ -4,9 +4,10 @@
   <body>
     <table border="1">
      <?php
-       for($i=0;$i<99;$i++){
+       for($i=0;$i<6;$i++){
          echo "<tr>";
-         echo "<td>คอลัมน์</td>";
+         for($j=0;$j<6;$j++){
+           echo "<td>  " "</td>";}    
          echo "</tr>";
        }
       ?>
